@@ -1,0 +1,74 @@
+body {
+  font-size: 15px;
+}
+
+button {
+  background: #ffc600;
+  border: 0;
+  padding: 10px 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.top{
+  display:grid;
+  grid-gap: 20px;
+  grid-template-areas: "hero hero cta1" "hero hero cta2"
+}
+
+.hero{
+  grid-area: hero;
+  min-height: 400px;
+  background: #fff url('./aula_base/24 - Responisve Website/images/taco.jpg');
+  background-size: cover;
+  background-position: bottom right;
+  padding: 50px;
+  /* display: grid;
+  justify-content: start;
+  align-content: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.hero > *{
+  background: var(--yellow);
+}
+
+.cta{
+  background: var(--yellow);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+.cta p{
+  margin: 0;
+}
+
+.price{
+  font-size: 60px;
+  font-weight: 300;
+}
+.cta1{
+  grid-area: cta1;
+  padding: 5px;
+}
+.cta2{
+  grid-area: cta2;
+}
+
+.menu ul{
+  display: grid;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.menu a{
+  background: var(--yellow);
+}
+

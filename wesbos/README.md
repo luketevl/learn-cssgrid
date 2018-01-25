@@ -72,6 +72,8 @@
 }
 ```
 
+## Grid Area
+
 ## EXPLICIT
 
 ## IMPLICIT
@@ -91,7 +93,7 @@
 - **Define**  automatically rows(default) or columns quantity 
 ```css
 .container{
-  grid-auto-flow: column;
+  grid-auto-flow: column | dense | row;
 }
 ```
 
