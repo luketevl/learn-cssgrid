@@ -1,6 +1,8 @@
 # LINKS
 - https://css-tricks.com/snippets/css/complete-guide-grid/
 - https://cssgrid.io/
+- https://developer.mozilla.org/en-US/docs/Web/CSS/fit-content
+- https://alligator.io/css/css-grid-layout-fr-unit/
 
 # FUNDAMENTALS
 
