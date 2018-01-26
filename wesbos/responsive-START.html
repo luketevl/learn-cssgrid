@@ -76,7 +76,7 @@
     </section>
 
     <section class="about">
-      <img src="images/queso-taco.png" alt="Yummy Taco" class="about__mockup">
+      <img src="./aula_base/24 - Responisve Website/images/queso-taco.png" alt="Yummy Taco" class="about__mockup">
       <div class="about__details">
         <h2>Featured Taco</h2>
         <p>Slim Profile, easy to hold and loaded with cheese.</p>
@@ -100,6 +100,16 @@
       <img src="https://source.unsplash.com/random/207x210" alt="">
     </section>
   </div>
+<script>
+  const navButton = document.querySelector('button[aria-expanded');
+
+   navButton.addEventListener('click', ({target}) => {
+    console.log(target);
+    const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+    navButton.setAttribute('aria-expanded', !expanded);
+  });
+</script>
+
 
 </body>
 

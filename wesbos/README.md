@@ -1,5 +1,6 @@
 # LINKS
-
+- https://css-tricks.com/snippets/css/complete-guide-grid/
+- https://cssgrid.io/
 
 # FUNDAMENTALS
 
@@ -73,6 +74,27 @@
 ```
 
 ## Grid Area
+- Defines a grid template by referencing the names of the grid areas which are specified with the grid-area property
+```css
+.container{
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+}
+```
+![Grid Template Areas](https://cdn.css-tricks.com/wp-content/uploads/2016/03/grid-template-areas.png)
+
+- Using the **areas**
+```css
+.item-d {
+  grid-area: 1 / col4-start / last-line / 6
+}
+```
+![Using grid area](https://cdn.css-tricks.com/wp-content/uploads/2016/03/grid-start-end-d.png)
+
 
 ## EXPLICIT
 
