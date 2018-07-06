@@ -9,7 +9,7 @@
 # FUNDAMENTALS
 
 ## Meanings
-![Grid meanings](LineMeanings.png)
+![Grid meanings](wesbos/LineMeanings.png)
 
 
 ## Using in **CONTAINER**
